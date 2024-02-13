@@ -1,0 +1,141 @@
+
+.navbar{
+    background-color: rgb(17, 16, 16);
+}
+
+  #wrapper {
+    width: 100%;
+    position: relative;
+  }
+  
+  #carousel {
+    overflow: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+  }
+  
+  #carousel::-webkit-scrollbar {
+    height: 0;
+  }
+  
+  #prev,
+  #next {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: white;
+    border: none;
+    padding: 8px;
+    border-radius: 50%;
+    outline: 0;
+    cursor: pointer;
+    position: absolute;
+  }
+  
+  #prev {
+    top: 50%;
+    left: 0;
+    transform: translate(50%, -50%);
+    display: none;
+  }
+  
+  #next {
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+  }
+  
+  #content {
+    display: grid;
+    grid-gap: -2px;
+    grid-auto-flow: column;
+    margin: auto;
+    box-sizing: border-box;
+  }
+  
+  .item {
+    width: 350px;
+    height: 180px;
+    background: green;
+  }
+  .item1{
+    background-image: url("https://media.istockphoto.com/id/483120255/photo/asian-oranage-chicken-with-green-onions.jpg?s=612x612&w=0&k=20&c=0T_g_J5OSnmCei1Slgr1128wzAhzceRvLjd94R3gkgs=");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 180px;
+
+
+}
+  .item2{
+    background-image: url("https://www.foodandwine.com/thmb/7blop_S1US74xsG6pqtejtkZJgE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Ratatouille-FT-RECIPE0822-2000-bc6f1cad246e4d4a862d3d2c441da73d.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 180px;
+
+
+}
+.item3{
+    background-image: url("https://img.delicious.com.au/kybXjWVj/del/2023/11/pescadillas-crispy-fish-tacos-201062-2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 180px;
+
+
+}
+.item4{
+    background-image: url("https://www.eatthis.com/wp-content/uploads/sites/4/2019/06/deep-dish-pizza-chicago.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 180px;
+
+
+}
+.item5{
+    background-image: url("https://ik.imagekit.io/awwybhhmo/satellite_images/chinese/gray/about_us/2.jpg?tr=w-3840");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 180px;
+
+
+}
+.item6{
+    background-image: url("https://hips.hearstapps.com/hmg-prod/images/lamb-tagine2-1647970003.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 180px;
+
+
+}
+.item7{
+    background-image: url("https://img.delicious.com.au/qdbIit2R/del/2023/07/japanese-pancake-okonomiyaki-193130-1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 180px;
+
+
+}
+.item8{
+    background-image: url("https://c.ndtvimg.com/2021-04/umk8i7ko_pasta_625x300_01_April_21.jpg?im=FaceCrop,algorithm=dnn,width=1200,height=675");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 180px;
+
+
+}
+  
